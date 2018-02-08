@@ -1,0 +1,12 @@
+{
+	"server":{
+		"port": 4550,
+		"maxdatasize": 2048,
+		"maxnumconnections": 100,
+		"numportstotry": 10
+	},
+	"log":{
+    "_possiblevalue": "CRITICAL 50, ERROR 40, WARNING 30, INFO 20, DEBUG 10, NOTSET 0",
+		"level": 10
+	}
+}
