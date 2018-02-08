@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import zmq
+# import zmq
 import threading
 import logging
 import socket
@@ -33,7 +33,7 @@ class socketServer(loggerGS):
         ranking.initThreadCalculateRanking()
 
         self.logger.info('mainServer. initsocket')
-        self.context = zmq.Context.instance()
+#         self.context = zmq.Context.instance()
 
         # we create the socket object
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
