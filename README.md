@@ -39,16 +39,16 @@ Here you can run the http server in order to test the api rest.
 The server listens at port 8080.
 
 ## API: addScore
-entryPoint: http://localhost:8080/addscore
-type: POST
-body: {“user”:”user”,”total”:1000} or {“user”:”user”,”score”:”+1000”}
-return: json object with the new score of the user
+- entryPoint: http://localhost:8080/addscore
+- type: POST
+- body: {“user”:”user”,”total”:1000} or {“user”:”user”,”score”:”+1000”}
+- return: json object with the new score of the user
 
 
 ## API: getRanking
-entryPoint:http://localhost:8080/getranking?query=Top10
-type: GET
-parameter: ?query=Top10 or ?query=At40/5
-return value: an array with json objects with the user, the score and the position in the ranking.
+- entryPoint:http://localhost:8080/getranking?query=Top10
+- type: GET
+- parameter: ?query=Top10 or ?query=At40/5
+- return value: an array with json objects with the user, the score and the position in the ranking.
 
 
